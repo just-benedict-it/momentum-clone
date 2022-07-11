@@ -1,0 +1,73 @@
+p, h1, h2, h3{
+    color:white;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 100%;
+    height: fit-content;
+}
+.clock{
+    font-size: 5rem;
+}
+.clock h2{
+    font-size: 9rem;
+    font-weight: 500;
+}
+.todos, .loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.todosText, .loginText, .focusText{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid white;
+    color: white;
+    font-size: larger;
+    
+}
+input:focus{
+    outline: none;
+}
+ul{
+    list-style-type: square;
+    color:white
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.quote{
+    flex: 1 1 auto;
+}
+.todoButton{
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+.modal{
+    opacity: 0.8;
+    background-color: rgb(149, 143, 143, 0.2);
+}
+
+.todos{
+    padding:1rem;
+
+}
+.hidden{
+    display: none;
+}
+
+
+/* 시간별로 인사말 바꾸기 */
